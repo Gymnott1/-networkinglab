@@ -1,8 +1,7 @@
 ![](fulllayout.png)
 
 ```
-[admin@AGREGATOR_SWITCH] > /print
-bad command name print (line 1 column 2)
+
 [admin@AGREGATOR_SWITCH] > export
 # mar/24/2026 12:56:34 by RouterOS 7.6
 # software id = 
