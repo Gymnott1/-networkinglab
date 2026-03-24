@@ -290,7 +290,8 @@ set name=ROUTING_ROUTER
 /tool romon
 set enabled=yes
 [admin@ROUTING_ROUTER] > 
-```# -networkinglab
+```
+# -networkinglab
 
 
 ### captive portal hotspot setup
