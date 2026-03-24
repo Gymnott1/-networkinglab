@@ -1,3 +1,5 @@
+![](fulllayout.png)
+
 ```
 [admin@AGREGATOR_SWITCH] > /print
 bad command name print (line 1 column 2)
@@ -72,7 +74,17 @@ set name=AGREGATOR_SWITCH
 set enabled=yes
 [admin@AGREGATOR_SWITCH] > 
 ```
-
+### setting the static ip to the server
+```
+echo "# -networkinglab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Gymnott1/-networkinglab.git
+git push -u origin main
+```
+![](servergivenstaticip.png)
 ```
 [admin@PPPOE_GNS3] > export
 # mar/24/2026 12:57:03 by RouterOS 7.6
@@ -280,3 +292,15 @@ set name=ROUTING_ROUTER
 set enabled=yes
 [admin@ROUTING_ROUTER] > 
 ```# -networkinglab
+
+
+### captive portal hotspot setup
+![](hotspotcaptivedisplayed.png)
+
+![](hscaptiveautheticatestheuser.png)
+
+## hotspot ip
+![](usergivenhsip.png)
+
+![](pppoegivenpppoeip.png)
+
