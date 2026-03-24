@@ -302,5 +302,6 @@ set enabled=yes
 ## hotspot ip
 ![](usergivenhsip.png)
 
+## pppoe ip
 ![](pppoegivenpppoeip.png)
 
