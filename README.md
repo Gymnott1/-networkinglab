@@ -74,14 +74,18 @@ set enabled=yes
 [admin@AGREGATOR_SWITCH] > 
 ```
 ### setting the static ip to the server
+
+# Set the IP address and Gateway
+# We use .5 as the gateway because that is what you assigned to the MikroTik's VLAN20 interface
 ```
-echo "# -networkinglab" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Gymnott1/-networkinglab.git
-git push -u origin main
+sudo nmcli con mod eth0 ipv4.addresses 102.203.85.7/28
+sudo nmcli con mod eth0 ipv4.gateway 102.203.85.5
+sudo nmcli con mod eth0 ipv4.dns "8.8.8.8,8.8.4.4"
+sudo nmcli con mod eth0 ipv4.method manual
+```
+# Restart the interface
+```
+sudo nmcli con up eth0
 ```
 ![](servergivenstaticip.png)
 ```
