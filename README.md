@@ -309,3 +309,6 @@ set enabled=yes
 ## pppoe ip
 ![](pppoegivenpppoeip.png)
 
+## WIRELESS TURNELLING WITH WIREGUARD EOIP
+![](wg.png)
+
